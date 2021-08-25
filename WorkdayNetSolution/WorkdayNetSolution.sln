@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.810.7
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorkdayNet", "WorkdayNet\WorkdayNet.csproj", "{09D24EA2-15E8-48B4-A6D8-E112FC09547C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorkdayNetTest", "WorkdayNetTest\WorkdayNetTest.csproj", "{ECA39FD5-572F-4A30-B0D2-8AF856B754DD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{09D24EA2-15E8-48B4-A6D8-E112FC09547C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{09D24EA2-15E8-48B4-A6D8-E112FC09547C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{09D24EA2-15E8-48B4-A6D8-E112FC09547C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{09D24EA2-15E8-48B4-A6D8-E112FC09547C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ECA39FD5-572F-4A30-B0D2-8AF856B754DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ECA39FD5-572F-4A30-B0D2-8AF856B754DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ECA39FD5-572F-4A30-B0D2-8AF856B754DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ECA39FD5-572F-4A30-B0D2-8AF856B754DD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7C97E086-E0EF-41A9-9E39-ECF6302538B0}
+	EndGlobalSection
+EndGlobal

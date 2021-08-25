@@ -1,0 +1,44 @@
+﻿<Properties StartupConfiguration="{09D24EA2-15E8-48B4-A6D8-E112FC09547C}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="WorkdayNetTest/UnitTest1.cs">
+    <Files>
+      <File FileName="WorkdayNet/Program.cs" Line="25" Column="82" />
+      <File FileName="WorkdayNet/Service/WorkdayCalendar.cs" />
+      <File FileName="WorkdayNetTest/UnitTest1.cs" Line="15" Column="53" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="WorkdayNetSolution" expanded="True">
+            <Node name="WorkdayNet" expanded="True">
+              <Node name="Service" expanded="True">
+                <Node name="Interfaces" expanded="True" />
+              </Node>
+            </Node>
+            <Node name="WorkdayNetTest" expanded="True">
+              <Node name="Dependencies" expanded="True" />
+              <Node name="UnitTest1.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.UnitTesting.TestPad">
+        <State name="__root__">
+          <Node name="WorkdayNetSolution" expanded="True">
+            <Node name="WorkdayNetTest" expanded="True">
+              <Node name="WorkdayNetTest" expanded="True">
+                <Node name="UnitTest1" selected="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.WorkdayNet PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

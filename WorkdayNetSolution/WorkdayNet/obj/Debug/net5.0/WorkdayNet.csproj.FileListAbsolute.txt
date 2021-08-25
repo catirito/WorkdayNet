@@ -1,0 +1,15 @@
+/Users/bruno/Projects/WorkdayNetSolution/WorkdayNet/bin/Debug/net5.0/WorkdayNet.deps.json
+/Users/bruno/Projects/WorkdayNetSolution/WorkdayNet/bin/Debug/net5.0/WorkdayNet.runtimeconfig.json
+/Users/bruno/Projects/WorkdayNetSolution/WorkdayNet/bin/Debug/net5.0/WorkdayNet.runtimeconfig.dev.json
+/Users/bruno/Projects/WorkdayNetSolution/WorkdayNet/bin/Debug/net5.0/WorkdayNet.dll
+/Users/bruno/Projects/WorkdayNetSolution/WorkdayNet/bin/Debug/net5.0/ref/WorkdayNet.dll
+/Users/bruno/Projects/WorkdayNetSolution/WorkdayNet/bin/Debug/net5.0/WorkdayNet.pdb
+/Users/bruno/Projects/WorkdayNetSolution/WorkdayNet/obj/Debug/net5.0/WorkdayNet.csproj.AssemblyReference.cache
+/Users/bruno/Projects/WorkdayNetSolution/WorkdayNet/obj/Debug/net5.0/WorkdayNet.GeneratedMSBuildEditorConfig.editorconfig
+/Users/bruno/Projects/WorkdayNetSolution/WorkdayNet/obj/Debug/net5.0/WorkdayNet.AssemblyInfoInputs.cache
+/Users/bruno/Projects/WorkdayNetSolution/WorkdayNet/obj/Debug/net5.0/WorkdayNet.AssemblyInfo.cs
+/Users/bruno/Projects/WorkdayNetSolution/WorkdayNet/obj/Debug/net5.0/WorkdayNet.csproj.CoreCompileInputs.cache
+/Users/bruno/Projects/WorkdayNetSolution/WorkdayNet/obj/Debug/net5.0/WorkdayNet.dll
+/Users/bruno/Projects/WorkdayNetSolution/WorkdayNet/obj/Debug/net5.0/ref/WorkdayNet.dll
+/Users/bruno/Projects/WorkdayNetSolution/WorkdayNet/obj/Debug/net5.0/WorkdayNet.pdb
+/Users/bruno/Projects/WorkdayNetSolution/WorkdayNet/obj/Debug/net5.0/WorkdayNet.genruntimeconfig.cache
