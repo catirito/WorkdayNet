@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/bruno/Projects/WorkdayNetSolution/WorkdayNet/WorkdayNet.csproj": {}
+    "/Users/bruno/Projects/ChoooseTest/WorkdayNetSolution/WorkdayNet/WorkdayNet.csproj": {}
   },
   "projects": {
-    "/Users/bruno/Projects/WorkdayNetSolution/WorkdayNet/WorkdayNet.csproj": {
+    "/Users/bruno/Projects/ChoooseTest/WorkdayNetSolution/WorkdayNet/WorkdayNet.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/bruno/Projects/WorkdayNetSolution/WorkdayNet/WorkdayNet.csproj",
+        "projectUniqueName": "/Users/bruno/Projects/ChoooseTest/WorkdayNetSolution/WorkdayNet/WorkdayNet.csproj",
         "projectName": "WorkdayNet",
-        "projectPath": "/Users/bruno/Projects/WorkdayNetSolution/WorkdayNet/WorkdayNet.csproj",
+        "projectPath": "/Users/bruno/Projects/ChoooseTest/WorkdayNetSolution/WorkdayNet/WorkdayNet.csproj",
         "packagesPath": "/Users/bruno/.nuget/packages/",
-        "outputPath": "/Users/bruno/Projects/WorkdayNetSolution/WorkdayNet/obj/",
+        "outputPath": "/Users/bruno/Projects/ChoooseTest/WorkdayNetSolution/WorkdayNet/obj/",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"

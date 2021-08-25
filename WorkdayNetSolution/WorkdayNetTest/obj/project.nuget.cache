@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ZMDPyRKDepPDCere0kk6U8y9ugrYWiD1uc7b1ZsSFLfOi1LorxUWAEPZsoiXw83pQPvcaVjdJUg1iDsX/5PuSg==",
+  "dgSpecHash": "rN/xu3THpLPmmVUtO6kQLo8UYr726CTcF9PfzE5KPhM/Fe8KxuvnFpeYt0xvy4xvzBhuFLVyD0O7ut5vAjbTbQ==",
   "success": true,
-  "projectFilePath": "/Users/bruno/Projects/WorkdayNetSolution/WorkdayNetTest/WorkdayNetTest.csproj",
+  "projectFilePath": "/Users/bruno/Projects/ChoooseTest/WorkdayNetSolution/WorkdayNetTest/WorkdayNetTest.csproj",
   "expectedPackageFiles": [
     "/Users/bruno/.nuget/packages/coverlet.collector/3.0.2/coverlet.collector.3.0.2.nupkg.sha512",
     "/Users/bruno/.nuget/packages/microsoft.codecoverage/16.9.4/microsoft.codecoverage.16.9.4.nupkg.sha512",

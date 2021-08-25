@@ -5865,11 +5865,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/bruno/Projects/WorkdayNetSolution/WorkdayNetTest/WorkdayNetTest.csproj",
+      "projectUniqueName": "/Users/bruno/Projects/ChoooseTest/WorkdayNetSolution/WorkdayNetTest/WorkdayNetTest.csproj",
       "projectName": "WorkdayNetTest",
-      "projectPath": "/Users/bruno/Projects/WorkdayNetSolution/WorkdayNetTest/WorkdayNetTest.csproj",
+      "projectPath": "/Users/bruno/Projects/ChoooseTest/WorkdayNetSolution/WorkdayNetTest/WorkdayNetTest.csproj",
       "packagesPath": "/Users/bruno/.nuget/packages/",
-      "outputPath": "/Users/bruno/Projects/WorkdayNetSolution/WorkdayNetTest/obj/",
+      "outputPath": "/Users/bruno/Projects/ChoooseTest/WorkdayNetSolution/WorkdayNetTest/obj/",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
@@ -5887,8 +5887,8 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "/Users/bruno/Projects/WorkdayNetSolution/WorkdayNet/WorkdayNet.csproj": {
-              "projectPath": "/Users/bruno/Projects/WorkdayNetSolution/WorkdayNet/WorkdayNet.csproj"
+            "/Users/bruno/Projects/ChoooseTest/WorkdayNetSolution/WorkdayNet/WorkdayNet.csproj": {
+              "projectPath": "/Users/bruno/Projects/ChoooseTest/WorkdayNetSolution/WorkdayNet/WorkdayNet.csproj"
             }
           }
         }

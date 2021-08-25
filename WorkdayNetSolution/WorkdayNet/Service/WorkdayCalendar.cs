@@ -6,8 +6,8 @@ namespace WorkdayNet.Service
     public class WorkdayCalendar : IWorkdayCalendar
     {
 
-        private List<DateTime> holidays;
-        private List<DateTime> weekendDays;
+        private HashSet<DateTime> holidays;
+        private HashSet<DateTime> weekendDays;
 
         private int startHours = 0, startMinutes = 0, stopHours = 23, stopMinutes = 59;
         private double totalTimeInWorkingDay = 0;
@@ -24,18 +24,17 @@ namespace WorkdayNet.Service
         public DateTime GetWorkdayIncrement(DateTime startDate, decimal incrementInWorkdays)
         {
 
-            startDate = NormilizeStartDateForIncrement(startDate);
+            startDate = NormilizeStartDateForIncrement(startDate, incrementInWorkdays > 0);
 
             DateTime endDate = DateIncrement(startDate, incrementInWorkdays);
 
-            endDate = adaptIncrementToHolidaysAndWeekendDays(startDate, endDate);
+            endDate = AdaptIncrementToHolidaysAndWeekendDays(startDate, endDate);
 
             return endDate;
             
         }
 
-
-        private DateTime adaptIncrementToHolidaysAndWeekendDays(DateTime startDate, DateTime endDate)
+        private DateTime AdaptIncrementToHolidaysAndWeekendDays(DateTime startDate, DateTime endDate)
         {
             
             List<DateTime> nonWorkingdays = new();
@@ -67,7 +66,7 @@ namespace WorkdayNet.Service
 
             int daysToIncrement = (int)decimal.Truncate(incrementInWorkdays);
 
-            int percentageOfWorkingTime = (int)((incrementInWorkdays - daysToIncrement) * 100);
+            double percentageOfWorkingTime = ((double)((incrementInWorkdays - daysToIncrement) * 100));
 
             double timeToIncrement = (totalTimeInWorkingDay * percentageOfWorkingTime) / 100;
 
@@ -75,7 +74,7 @@ namespace WorkdayNet.Service
 
         }
 
-        private DateTime NormilizeStartDateForIncrement(DateTime startDate)
+        private DateTime NormilizeStartDateForIncrement(DateTime startDate, bool incrementIsPositive)
         {
 
             TimeSpan startTime = new(startHours, startMinutes, 0);
@@ -83,14 +82,25 @@ namespace WorkdayNet.Service
 
             TimeSpan time = startDate.TimeOfDay;
 
-            if (time < startTime)
-            {
-                startDate = startDate.Add(time - startTime);
-            }
+            if (time > startTime && time < stopTime)
+                return startDate;
 
-            if (time > stopTime)
+
+            if(incrementIsPositive)
             {
-                startDate = startDate.Add(stopTime - time);
+
+                if (time > stopTime)
+                    startDate = startDate.AddDays(1);
+
+
+                startDate = new DateTime(startDate.Year, startDate.Month, startDate.Day, startHours, startMinutes, 0);
+            }
+            else
+            {
+                if (time < startTime)
+                    startDate = startDate.AddDays(-1);
+
+                startDate = new DateTime(startDate.Year, startDate.Month, startDate.Day, stopHours, stopMinutes, 0);
             }
 
             return startDate;
@@ -117,7 +127,6 @@ namespace WorkdayNet.Service
 
             SetTotalTimeInWorkingDay();
         }
-
 
         private void SetWeekends()
         {

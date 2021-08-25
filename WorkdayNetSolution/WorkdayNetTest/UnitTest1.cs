@@ -24,10 +24,10 @@ namespace WorkdayNetTest
 
 
             DateTime realResult = sut.GetWorkdayIncrement(start, increment);
-            DateTime expectedResult = new DateTime(2004, 5, 14, 12, 0, 0);
+            DateTime expectedResult = new(2004, 5, 14, 12, 0, 0);
 
 
-            Assert.Equal(realResult, expectedResult);
+            Assert.Equal(realResult, expectedResult, new TimeSpan(0, 1, 0));
 
         }
 
@@ -49,7 +49,7 @@ namespace WorkdayNetTest
 
 
             DateTime realResult = sut.GetWorkdayIncrement(start, increment);
-            DateTime expectedResult = new DateTime(2004, 5, 17, 12, 0, 0);
+            DateTime expectedResult = new(2004, 5, 17, 12, 0, 0);
 
 
             Assert.NotEqual(realResult, expectedResult);
@@ -75,10 +75,10 @@ namespace WorkdayNetTest
 
 
             DateTime realResult = sut.GetWorkdayIncrement(start, increment);
-            DateTime expectedResult = new DateTime(2004, 7, 27, 13, 47, 0);
+            DateTime expectedResult = new(2004, 7, 27, 13, 47, 0);
 
 
-            Assert.Equal(realResult, expectedResult);
+            Assert.Equal(realResult, expectedResult, new TimeSpan(0, 1, 0));
 
         }
 
@@ -103,7 +103,7 @@ namespace WorkdayNetTest
             DateTime expectedResult = new DateTime(2004, 5, 13, 10, 2, 0);
 
 
-            Assert.Equal(realResult, expectedResult);
+            Assert.Equal(realResult, expectedResult, new TimeSpan(0, 1, 0));
 
         }
 
@@ -125,10 +125,10 @@ namespace WorkdayNetTest
 
 
             DateTime realResult = sut.GetWorkdayIncrement(start, increment);
-            DateTime expectedResult = new DateTime(2004, 6, 10, 14, 18, 0);
+            DateTime expectedResult = new(2004, 6, 10, 14, 18, 0);
 
 
-            Assert.Equal(realResult, expectedResult);
+            Assert.Equal(realResult, expectedResult, new TimeSpan(0, 1, 0));
 
         }
 
@@ -151,10 +151,10 @@ namespace WorkdayNetTest
 
 
             DateTime realResult = sut.GetWorkdayIncrement(start, increment);
-            DateTime expectedResult = new DateTime(2004, 6, 4, 10, 12, 0);
+            DateTime expectedResult = new(2004, 6, 4, 10, 12, 0);
 
 
-            Assert.Equal(realResult, expectedResult);
+            Assert.Equal(realResult, expectedResult, new TimeSpan(0,1,0));
 
         }
 

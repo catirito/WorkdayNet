@@ -5,7 +5,7 @@ namespace WorkdayNet
 {
     class Program
     {
-        static void Main(string[] args)
+        static void Main()
         {
 
             IWorkdayCalendar calendar = new WorkdayCalendar();
